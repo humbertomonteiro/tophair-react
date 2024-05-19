@@ -1,0 +1,29 @@
+.container {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.container div {
+  width: 800px;
+  max-width: 85%;
+}
+
+.container div h2 {
+  font-size: 2rem;
+  color: var(--color-text-gray);
+  margin-bottom: 1rem;
+}
+
+.container div p {
+  line-height: 150%;
+  margin-bottom: 1rem;
+}
+
+.container div ul p {
+  margin-bottom: 1rem;
+}
+
+.container div ul li {
+  margin-bottom: 1rem;
+}

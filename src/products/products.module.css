@@ -1,0 +1,44 @@
+.containerProduct {
+  width: 800px;
+  max-width: 85%;
+}
+
+.descriptionProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionProduct h2 {
+  text-align: center;
+  margin: 3rem;
+  font-size: 2.5rem;
+  color: var(--color-text-gray);
+}
+
+.imgProduct {
+  width: 70%;
+}
+
+.imgProduct img {
+  width: 100%;
+}
+
+.description > h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.description > p {
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  .descriptionProduct h2 {
+    font-size: 1.5rem;
+    margin: 3rem 0;
+  }
+}

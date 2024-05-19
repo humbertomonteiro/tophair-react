@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  margin: 40px 0 20px 0;
+  color: var(--color-text-gray);
+}
+
+.title h2 {
+  text-align: center;
+}
+
+.title a {
+  cursor: pointer;
+  font-size: 3rem;
+  color: var(--color-text-gray);
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.title a:hover {
+  transform: scale(1.07);
+  color: var(--color-3);
+}
+
+@media (max-width: 500px) {
+  .title h2 {
+    font-size: 2rem;
+  }
+}

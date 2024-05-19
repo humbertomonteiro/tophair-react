@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@300&display=swap");
+
+:root {
+  --color-1: #000;
+  --color-2: #21120b;
+  --color-3: #9e7155;
+  --color-4: #fff;
+  --color-5: #818181;
+  --color-text-white: #fff;
+  --color-text-gray: #aaaaaa;
+  --color-text-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}

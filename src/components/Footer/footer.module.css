@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(22, 22, 22) 100%); */
+}
+
+.footerTop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 10px;
+}
+
+.logoSocial,
+.institute,
+.attendance {
+  max-width: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 80%;
+  max-width: 300px;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social svg {
+  font-size: 2rem;
+  color: var(--color-text-gray);
+  transition: 0.3s;
+}
+
+.social svg:hover {
+  color: var(--color-3);
+}
+
+.institute {
+  display: flex;
+  flex-direction: column;
+}
+
+.institute a,
+.attendance .item {
+  color: var(--color-text-gray);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.institute a:hover {
+  color: var(--color-3);
+  text-decoration: underline;
+}
+
+.institute h2,
+.attendance h2 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: var(--color-text-gray);
+}
+
+.footerBottom {
+  background-color: var(--color-4);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.footerBottom a {
+  color: #002a4d;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .logoSocial,
+  .institute,
+  .attendance {
+    width: 100%;
+    padding: 10px;
+  }
+}

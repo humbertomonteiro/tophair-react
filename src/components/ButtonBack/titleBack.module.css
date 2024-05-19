@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  position: relative;
+}
+
+.title svg {
+  font-size: 3rem;
+  position: fixed;
+  left: 0;
+  top: 185px;
+  color: var(--color-text-gray);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.title svg:hover {
+  transform: scale(1.08);
+  color: var(--color-3);
+}
+
+@media (max-width: 500px) {
+  .title h2 {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,125 @@
+.mainTopcs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 40px 20px;
+  margin: 20px 10px;
+  height: 100px;
+  border-bottom: 1px solid var(--color-text-gray);
+}
+
+.miniBox {
+  border: 1px solid var(--color-text-gray);
+  border-radius: 15px;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text-black);
+  transition: 0.5s;
+}
+
+.miniBox span {
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.topcs {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.topc a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-text-black);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.topc span {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.topc {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.miniBox:hover,
+.topc:hover {
+  transform: scale(1.05);
+}
+
+.border {
+  width: 1px;
+  height: 60%;
+  background-color: var(--color-text-black);
+}
+
+@media (max-width: 820px) {
+  .mainTopcs {
+    padding: 20px 10px 40px 10px;
+  }
+
+  .topc a {
+    font-size: 0.8rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .topc svg {
+    font-size: 1.1rem;
+  }
+
+  .topc span {
+    font-size: 0.6rem;
+  }
+
+  .miniBox {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .topc {
+    font-size: 0.7rem;
+  }
+
+  .topc a {
+    font-size: 0.6rem;
+  }
+
+  .topc span {
+    display: block;
+    max-width: 80px;
+    font-size: 0.5rem;
+  }
+
+  .mainTopcs {
+    margin: 20px 0 20px 0;
+  }
+
+  .miniBox {
+    width: 60px;
+    height: 60px;
+  }
+
+  .miniBox span {
+    font-size: 0.5rem;
+  }
+
+  .topc p {
+    font-size: 0.5rem;
+  }
+}

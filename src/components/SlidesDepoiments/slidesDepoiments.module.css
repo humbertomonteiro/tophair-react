@@ -1,0 +1,48 @@
+.container {
+  width: 1200px;
+  max-width: 100%;
+  padding: 30px 0;
+  height: fit-content;
+}
+
+.boxDepoiment {
+  width: 50%;
+  padding: 10px;
+  background-color: #eeeeee;
+  border-radius: 2px;
+}
+
+.imgDepoiment {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDepoiment h2 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  border: 1px solid var(--color-1);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentDepoiment span,
+.contentDepoiment h4 {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contentDepoiment p {
+  line-height: 150%;
+}
+
+@media (max-width: 500px) {
+  .boxDepoiment {
+    width: 70%;
+  }
+}
