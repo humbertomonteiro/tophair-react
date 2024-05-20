@@ -27,7 +27,7 @@ export default function Products() {
             <div key={product.id} className={styles.product}>
               <h3>{product.name}</h3>
               <div className={styles.productImg}>
-                <img src={`../${product.img}`} alt={product.name} />
+                <img src={product.img} alt={product.name} />
               </div>
               <Link onClick={topPage} to={`/products/${id}/${product.id}`}>
                 SABER MAIS
