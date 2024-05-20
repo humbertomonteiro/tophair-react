@@ -8,7 +8,7 @@ import logo from "../../assets/imgs/logos/logo-tophair-rosa.webp/";
 
 export default function Wholesale() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} data-aos="fade-up">
       <div className={styles.containerWholesale}>
         <div className={styles.imgWholesale}>
           <img src={imgWholesale} alt="Cabelo em atacado" />

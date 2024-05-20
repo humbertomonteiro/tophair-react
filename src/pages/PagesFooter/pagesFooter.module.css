@@ -1,5 +1,5 @@
 .container {
-  margin-top: 160px;
+  margin: 160px 0 40px;
   display: flex;
   justify-content: center;
 }

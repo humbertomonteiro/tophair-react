@@ -31,10 +31,9 @@ export default function Header({ setLink }) {
 
   return (
     <header className={styles.header}>
-      <Link className={styles.logo} to="/">
+      <Link className={styles.logo} to="/" data-aos="fade-down">
         <img src={logo} alt="logo" />
       </Link>
-
       <nav className={stateNav ? styles.nav : styles.navMobile}>
         <Link onClick={topPage} to="/products/megaHair">
           Acessórios Mega Hair
@@ -58,7 +57,6 @@ export default function Header({ setLink }) {
           Cabelo em Atacado
         </Link>
       </nav>
-
       <button
         onClick={navBar}
         className={iconBars ? styles.bars : styles.noBars}

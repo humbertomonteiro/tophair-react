@@ -1,4 +1,5 @@
 import MH1 from "../products/megaHair/MH1";
+// import imgMH1 from '../src/assets/imgs/'
 import MH2 from "../products/megaHair/MH2";
 import MH3 from "../products/megaHair/MH3";
 import MH4 from "../products/megaHair/MH4";

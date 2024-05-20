@@ -12,7 +12,7 @@ import slide3 from "../../assets/imgs/slides/slide3.png";
 
 export default function Slider() {
   return (
-    <div className={styles.slides}>
+    <div className={styles.slides} data-aos="fade-up" data-aos-delay="400">
       <Swiper
         autoplay={{
           delay: 2500,

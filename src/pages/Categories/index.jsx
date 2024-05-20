@@ -10,7 +10,7 @@ const topPage = () => {
 
 export default function Categories() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-aos="fade-down" data-aos-delay="700">
       <h2>NOSSOS PRODUTOS</h2>
       <div className={styles.categories}>
         {categories.map((category) => (
@@ -18,9 +18,10 @@ export default function Categories() {
             <h3>{category.name}</h3>
             <div className={styles.categoryImg}>
               <img
-                src={category.pages
+                src={`../${category.pages
                   .filter((e) => e.id === 1)
-                  .map((img) => img.img)}
+                  .map((img) => img.img)}`}
+                alt={category.name}
               />
             </div>
             <Link onClick={topPage} to={`/products/${category.id}`}>

@@ -10,7 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function MainTopcs() {
   return (
-    <div className={styles.mainTopcs}>
+    <div className={styles.mainTopcs} data-aos="fade-up" data-aos-delay="600">
       <a
         href="http://api.whatsapp.com/send?phone=5541991899501"
         target="_blank"

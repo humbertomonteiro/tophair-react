@@ -23,6 +23,7 @@ export default function SlidesDepoiments() {
       pagination={true}
       modules={[EffectCoverflow, Pagination]}
       className={styles.container}
+      data-aos="fade-up"
     >
       {depoiments.map((depoiment) => (
         <SwiperSlide key={depoiment.id} className={styles.boxDepoiment}>

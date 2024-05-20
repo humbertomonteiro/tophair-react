@@ -5,7 +5,7 @@ import { FaTruckFast, FaCreditCard } from "react-icons/fa6";
 
 export default function Boxes() {
   return (
-    <article className={styles.boxes}>
+    <article className={styles.boxes} data-aos="fade-up">
       <div className={styles.box}>
         <FaCheckSquare />
         <h4>Qualidade</h4>

@@ -21,7 +21,7 @@ const topPage = () => {
 
 export default function Footer() {
   return (
-    <footer className={styles.container}>
+    <footer className={styles.container} data-aos="fade-up">
       <div className={styles.footerTop}>
         <div className={styles.logoSocial}>
           <Link onClick={topPage} className={styles.logo} to="/">
@@ -53,11 +53,21 @@ export default function Footer() {
         </div>
         <div className={styles.institute}>
           <h2>Institucional</h2>
-          <Link to="/about">Sobre nós</Link>
-          <Link to="/security">Segurança</Link>
-          <Link to="/send">Envio</Link>
-          <Link to="/payment">Pagamento</Link>
-          <Link to="/guarantee">Tempo de Garantia</Link>
+          <Link onClick={topPage} to="/about">
+            Sobre nós
+          </Link>
+          <Link onClick={topPage} to="/security">
+            Segurança
+          </Link>
+          <Link onClick={topPage} to="/send">
+            Envio
+          </Link>
+          <Link onClick={topPage} to="/payment">
+            Pagamento
+          </Link>
+          <Link onClick={topPage} to="/guarantee">
+            Tempo de Garantia
+          </Link>
           <a
             href="http://api.whatsapp.com/send?phone=5541991899501"
             target="_blank"
