@@ -31,7 +31,7 @@ export default function Header({ setLink }) {
 
   return (
     <header className={styles.header}>
-      <Link className={styles.logo} to="/" data-aos="fade-down">
+      <Link className={styles.logo} to="/">
         <img src={logo} alt="logo" />
       </Link>
       <nav className={stateNav ? styles.nav : styles.navMobile}>
