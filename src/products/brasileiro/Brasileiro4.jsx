@@ -20,7 +20,7 @@ export default function Brasileiro4() {
             alt="CABELO BRASILEIRO CASTANHO DO SUL FIO FINO"
           />
         </div>
-        <div class="description-content">
+        <div className={styles.description}>
           <h3>CABELO BRASILEIRO DO SUL</h3>
           <p>Tom: Morena Iluminada</p>
           <p>Textura: Fio Fino</p>
@@ -59,10 +59,8 @@ export default function Brasileiro4() {
             devem chamar na nossa central de atendimento Whats 71 992430501.
           </p>
 
-          <div class="video">
+          <div className={styles.video}>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/d4ZOe6X50zs"
               title="YouTube video player"
               frameborder="0"

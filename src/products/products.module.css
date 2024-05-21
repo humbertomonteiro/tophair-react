@@ -25,6 +25,19 @@
   width: 100%;
 }
 
+.video {
+  margin: 30px 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.video iframe {
+  width: 500px;
+  height: 300px;
+  max-width: 100%;
+}
+
 .description > h3 {
   font-size: 1.5rem;
   margin: 1rem 0;
@@ -40,5 +53,9 @@
   .descriptionProduct h2 {
     font-size: 1.5rem;
     margin: 3rem 0;
+  }
+
+  .video iframe {
+    height: 180px;
   }
 }
