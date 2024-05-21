@@ -18,9 +18,9 @@ export default function Categories() {
             <h3>{category.name}</h3>
             <div className={styles.categoryImg}>
               <img
-                src={`../../../src/assets/imgs/${category.pages
+                src={category.pages
                   .filter((e) => e.id === 1)
-                  .map((img) => img.img)}`}
+                  .map((img) => img.img)}
                 alt={category.name}
               />
             </div>
