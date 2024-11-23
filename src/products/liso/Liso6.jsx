@@ -15,7 +15,11 @@ export default function Liso6() {
       <div className={styles.descriptionProduct}>
         <h2>CABELO LISO ONDULADO 65CM CASTANHO NATURAL</h2>
         <div className={styles.imgProduct}>
-          <img src={liso6} alt="CABELO LISO ONDULADO 65CM CASTANHO NATURAL" />
+          <img
+            loading="lazy"
+            src={liso6}
+            alt="CABELO LISO ONDULADO 65CM CASTANHO NATURAL"
+          />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>
@@ -40,7 +44,7 @@ export default function Liso6() {
           </p>
 
           {/* <div class="description-img">
-        <img src="../imgs/logos/tamanhso.webp" alt="" />
+        <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="" />
       </div> */}
 
           <BtnWhatsapp />

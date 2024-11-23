@@ -1,13 +1,13 @@
 .container {
   min-height: 400px;
-  margin: 160px 0 40px;
   display: flex;
   justify-content: center;
 }
 
 .container div {
   width: 800px;
-  max-width: 85%;
+  max-width: 90%;
+  padding-top: 200px;
 }
 
 .container div h2 {
@@ -21,10 +21,20 @@
   margin-bottom: 1rem;
 }
 
+.container div ul {
+  margin-left: 1.5rem;
+}
+
 .container div ul p {
   margin-bottom: 1rem;
 }
 
 .container div ul li {
   margin-bottom: 1rem;
+}
+
+@media (max-width: 700px) {
+  .container div {
+    padding-top: 130px;
+  }
 }

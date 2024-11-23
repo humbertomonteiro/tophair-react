@@ -10,7 +10,7 @@ const topPage = () => {
 
 export default function Categories() {
   return (
-    <div className={styles.container} data-aos="fade-down" data-aos-delay="700">
+    <div className={styles.container} data-aos="fade-down">
       <h2>NOSSOS PRODUTOS</h2>
       <div className={styles.categories}>
         {categories.map((category) => (
@@ -18,6 +18,7 @@ export default function Categories() {
             <h3>{category.name}</h3>
             <div className={styles.categoryImg}>
               <img
+                loading="lazy"
                 src={category.pages
                   .filter((e) => e.id === 1)
                   .map((img) => img.img)}

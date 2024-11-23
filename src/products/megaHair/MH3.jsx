@@ -15,7 +15,7 @@ export default function MH3() {
       <div className={styles.descriptionProduct}>
         <h2>QUERATINA K EM FITA TRANSPARENTE</h2>
         <div className={styles.imgProduct}>
-          <img src={queratina} alt="escova desembaraçadora" />
+          <img loading="lazy" src={queratina} alt="escova desembaraçadora" />
         </div>
         <div class="description-content">
           <BtnWhatsapp />

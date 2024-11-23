@@ -15,7 +15,7 @@ export default function MH5() {
       <div className={styles.descriptionProduct}>
         <h2>GEL COLA PARA FABRICAÇÃO NANOPELE 50GRS</h2>
         <div className={styles.imgProduct}>
-          <img src={gel} alt="gel" />
+          <img loading="lazy" src={gel} alt="gel" />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>

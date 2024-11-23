@@ -10,7 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function MainTopcs() {
   return (
-    <div className={styles.mainTopcs} data-aos="fade-up" data-aos-delay="600">
+    <div className={styles.mainTopcs} data-aos="zoom-in">
       <a
         href="http://api.whatsapp.com/send?phone=5541991899501"
         target="_blank"
@@ -20,14 +20,14 @@ export default function MainTopcs() {
         <span>Agendar Horário</span>
       </a>
       <div className={styles.topcs}>
-        <a href="" className={styles.topc}>
+        <a href="/freeShipping" className={styles.topc}>
           <Link>
             <FaTruck /> Frete Grátis
           </Link>
           <span>Em compras acima de R$195,00</span>
         </a>
 
-        <div className={styles.border}></div>
+        <hr className={styles.border} />
 
         <div
           href="http://api.whatsapp.com/send?phone=5541991899501"

@@ -1,6 +1,4 @@
-import "./App.css";
-
-import { BrowserRouter, useParams } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import Header from "./components/Header";
 import RouterApp from "./router/RouterApp";

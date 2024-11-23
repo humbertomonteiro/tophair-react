@@ -23,20 +23,20 @@ export default function Slider() {
         keyboard={{
           enabled: true,
         }}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        modules={[Autoplay, Keyboard]}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Keyboard, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={slide1} alt="slide 1" />
+          <img loading="lazy" src={slide1} alt="slide 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide2} alt="slide 2" />
+          <img loading="lazy" src={slide2} alt="slide 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide3} alt="slide 3" />
+          <img loading="lazy" src={slide3} alt="slide 3" />
         </SwiperSlide>
       </Swiper>
     </div>

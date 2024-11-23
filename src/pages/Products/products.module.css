@@ -40,7 +40,7 @@
 }
 
 .product a {
-  background-color: var(--color-2);
+  background-color: var(--color-1);
   color: var(--color-text-white);
   font-size: 0.8rem;
   font-weight: bold;
@@ -52,5 +52,5 @@
 }
 
 .product a:hover {
-  background-color: var(--color-3);
+  background-color: var(--color-2);
 }

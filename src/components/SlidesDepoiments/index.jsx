@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 import { depoiments } from "../../arrayDepoiments";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
 export default function SlidesDepoiments() {
   return (
@@ -13,6 +13,19 @@ export default function SlidesDepoiments() {
       grabCursor={true}
       centeredSlides={true}
       slidesPerView={"auto"}
+      autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+      }}
+      breakpoints={{
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+        },
+      }}
       coverflowEffect={{
         rotate: 50,
         stretch: 0,
@@ -21,9 +34,9 @@ export default function SlidesDepoiments() {
         slideShadows: true,
       }}
       pagination={true}
-      modules={[EffectCoverflow, Pagination]}
+      modules={[EffectCoverflow, Pagination, Autoplay]}
       className={styles.container}
-      data-aos="fade-up"
+      data-aos="zoom-in"
     >
       {depoiments.map((depoiment) => (
         <SwiperSlide key={depoiment.id} className={styles.boxDepoiment}>

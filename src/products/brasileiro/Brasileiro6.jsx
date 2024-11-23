@@ -16,6 +16,7 @@ export default function Brasileiro6() {
         <h2>CABELO BRASILEIRO DO SUL DESCOLORIDO LINHA LUXO 60/65CM 100GRS</h2>
         <div className={styles.imgProduct}>
           <img
+            loading="lazy"
             src={brasilCastanho100g}
             alt="CABELO BRASILEIRO DO SUL DESCOLORIDO LINHA LUXO"
           />
@@ -37,7 +38,7 @@ export default function Brasileiro6() {
           </p>
           {/* 
             <div class="description-img">
-                <img src="../imgs/logos/tamanhso.webp" alt="">
+                <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="">
             </div> */}
 
           <h3>POR QUE COMPRAR O CABELO BRASILEIRO?</h3>
@@ -63,22 +64,14 @@ export default function Brasileiro6() {
           <h3>POR QUE VOCÊ PRECISA TER UM CABELO BRASILEIRO?</h3>
           <ul>
             <li>
-              <p>
-                Quer ter um cabelo 100% natural, sedoso, saudável, com
-                movimentos e brilhos?
-              </p>
+              Quer ter um cabelo 100% natural, sedoso, saudável, com movimentos
+              e brilhos?
             </li>
+            <li>Cabelo liso que é somente lavar e já está maravilhoso?</li>
+            <li>Sem precisar se preocupar com chapinha ou escova?</li>
             <li>
-              <p>Cabelo liso que é somente lavar e já está maravilhoso?</p>
-            </li>
-            <li>
-              <p>Sem precisar se preocupar com chapinha ou escova?</p>
-            </li>
-            <li>
-              <p>
-                Você vai encontrar tudo isso em nossa loja comprando os nossos
-                <strong>cabelos brasileiros do Sul</strong> fio fino.
-              </p>
+              Você vai encontrar tudo isso em nossa loja comprando os nossos
+              <strong>cabelos brasileiros do Sul</strong> fio fino.
             </li>
           </ul>
           <h3>
@@ -127,28 +120,22 @@ export default function Brasileiro6() {
           </p>
           <Boxes />
           <h3>IMPORTANTE:</h3>
-          <p>
-            <ul>
-              <li>
-                <p>
-                  A TOP HAIR SSA, não se responsabiliza por serviços de
-                  terceiros realizados nos cabelos
-                </p>
-              </li>
-              <li>
-                <p>
-                  Os produtos devolvidos serão submetidos à analise por técnicos
-                  especializados.
-                </p>
-              </li>
-              <li>
-                <p>
-                  O produto adquirido será enviado a partir de fios de maior
-                  proximidade em cor e comprimento
-                </p>
-              </li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>
+              A TOP HAIR SSA, não se responsabiliza por serviços de terceiros
+              realizados nos cabelos
+            </li>
+            <li>
+              Os produtos devolvidos serão submetidos à analise por técnicos
+              especializados.
+            </li>
+            <li>
+              O produto adquirido será enviado a partir de fios de maior
+              proximidade em cor e comprimento
+            </li>
+          </ul>
+
           <BtnWhatsapp />
         </div>
       </div>

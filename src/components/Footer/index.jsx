@@ -21,11 +21,11 @@ const topPage = () => {
 
 export default function Footer() {
   return (
-    <footer className={styles.container} data-aos="fade-up">
+    <footer className={styles.container}>
       <div className={styles.footerTop}>
         <div className={styles.logoSocial}>
           <Link onClick={topPage} className={styles.logo} to="/">
-            <img src={logo} alt="Logo" />
+            <img loading="lazy" src={logo} alt="Logo" />
           </Link>
           <div className={styles.social}>
             <a href="https://www.facebook.com/tophairssa/" target="_blank">

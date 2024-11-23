@@ -7,7 +7,7 @@
 }
 
 .map {
-  width: 45%;
+  flex: 1;
   min-width: 400px;
   height: 400px;
 }
@@ -19,8 +19,8 @@
 }
 
 .locationContent {
-  width: 45%;
-  padding: 20px 10px;
+  flex: 1;
+  padding: 2rem;
   flex-grow: 1;
 }
 
@@ -40,7 +40,7 @@
   color: var(--color-text-white);
   font-weight: 300;
   border-radius: 30px;
-  padding: 10px;
+  padding: 0.5rem 2rem;
   transition: 0.2s;
 }
 
@@ -56,6 +56,10 @@
 
   .map {
     width: 100%;
+  }
+
+  .map iframe {
+    height: 300px;
   }
 
   .locationContent {

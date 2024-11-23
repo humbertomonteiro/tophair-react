@@ -15,7 +15,11 @@ export default function Liso4() {
       <div className={styles.descriptionProduct}>
         <h2>CABELO LISO VIETNÃ CASTANHO NATURAL 70CM</h2>
         <div className={styles.imgProduct}>
-          <img src={liso4} alt="CABELO LISO VIETNÃ CASTANHO NATURAL" />
+          <img
+            loading="lazy"
+            src={liso4}
+            alt="CABELO LISO VIETNÃ CASTANHO NATURAL"
+          />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>
@@ -65,7 +69,7 @@ export default function Liso4() {
           </p>
 
           {/* <div class="description-img">
-        <img src="../imgs/logos/tamanhso.webp" alt="" />
+        <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="" />
       </div> */}
           <BtnWhatsapp />
 

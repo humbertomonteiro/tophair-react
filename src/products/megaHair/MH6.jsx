@@ -15,7 +15,7 @@ export default function MH6() {
       <div className={styles.descriptionProduct}>
         <h2>FITA ADESIVA LACE FRONT AZUL 36 MTS 1 UNIDADE</h2>
         <div className={styles.imgProduct}>
-          <img src={fita} alt="fita" />
+          <img loading="lazy" src={fita} alt="fita" />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>

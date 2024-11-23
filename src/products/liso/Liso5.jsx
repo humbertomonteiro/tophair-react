@@ -15,7 +15,11 @@ export default function Liso5() {
       <div className={styles.descriptionProduct}>
         <h2>CABELO LISO ONDULADO 75CM CASTANHO NATURAL</h2>
         <div className={styles.imgProduct}>
-          <img src={liso5} alt="CABELO LISO ONDULADO 75CM CASTANHO NATURAL" />
+          <img
+            loading="lazy"
+            src={liso5}
+            alt="CABELO LISO ONDULADO 75CM CASTANHO NATURAL"
+          />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>
@@ -33,7 +37,7 @@ export default function Liso5() {
           </p>
 
           {/* <div class="description-img">
-        <img src="../imgs/logos/tamanhso.webp" alt="" />
+        <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="" />
       </div> */}
 
           <BtnWhatsapp />

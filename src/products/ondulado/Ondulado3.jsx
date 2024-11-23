@@ -15,7 +15,11 @@ export default function Ondulado3() {
       <div className={styles.descriptionProduct}>
         <h2>CABELO LISO PERUANO 60CM 100GRS</h2>
         <div className={styles.imgProduct}>
-          <img src={ondulado3} alt="CABELO LISO PERUANO 60CM 100GRS" />
+          <img
+            loading="lazy"
+            src={ondulado3}
+            alt="CABELO LISO PERUANO 60CM 100GRS"
+          />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>
@@ -56,7 +60,7 @@ export default function Ondulado3() {
           </p>
 
           {/* <div class="description-img">
-        <img src="../imgs/logos/tamanhso.webp" alt="" />
+        <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="" />
       </div> */}
 
           <BtnWhatsapp />

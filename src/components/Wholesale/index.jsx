@@ -8,10 +8,10 @@ import logo from "../../assets/imgs/logos/logo-tophair-rosa.webp/";
 
 export default function Wholesale() {
   return (
-    <section className={styles.container} data-aos="fade-up">
+    <section className={styles.container} data-aos="zoom-in">
       <div className={styles.containerWholesale}>
         <div className={styles.imgWholesale}>
-          <img src={imgWholesale} alt="Cabelo em atacado" />
+          <img loading="lazy" src={imgWholesale} alt="Cabelo em atacado" />
         </div>
         <div className={styles.contentWholesale}>
           <h2>Cabelo em Atacado</h2>
@@ -24,9 +24,9 @@ export default function Wholesale() {
         </div>
       </div>
       <div className={styles.imgHair}>
-        <img src={goldhair} alt="cabelo loiro" />
+        <img loading="lazy" src={goldhair} alt="cabelo loiro" />
       </div>
-      {/* <img className={styles.logo} src={logo} alt="Logo" /> */}
+      {/* <img loading='lazy' className={styles.logo} src={logo} alt="Logo" /> */}
     </section>
   );
 }

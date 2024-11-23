@@ -50,16 +50,16 @@ import Cacheado1 from "../products/cacheado/Cacheado1";
 import imgCacheado1 from "../assets/imgs/cabelosCacheados/cabelo_cacheado_permanente_top_hair_50_55cm_castanho_natural.webp";
 import Cacheado2 from "../products/cacheado/Cacheado2";
 import imgCacheado2 from "../assets/imgs/cabelosCacheados/cabelo_cacheado_permanente_caipira_50_a_55_cm_castanho_natural.webp";
-import Cacheado3 from "../products/cacheado/Cacheado3";
-import imgCacheado3 from "../assets/imgs/cabelosCacheados/cabelo_cacheado_permanente_caipira_60_a_65_cm_castanho_natural.webp";
+// import Cacheado3 from "../products/cacheado/Cacheado3";
+// import imgCacheado3 from "../assets/imgs/cabelosCacheados/cabelo_cacheado_permanente_caipira_60_a_65_cm_castanho_natural.webp";
 import Cacheado4 from "../products/cacheado/Cacheado4";
 import imgCacheado4 from "../assets/imgs/cabelosCacheados/cabelo_cacheado_permanente_caipira_70_a_75_cm_castanho_natural.webp";
-import Ondulado1 from "../products/ondulado/Ondulado1";
-import imgOndulado1 from "../assets/imgs/cabelosOndulados/cabelo_liso_e_ondulado_55cm_castanho_natural.webp";
-import Ondulado2 from "../products/ondulado/Ondulado2";
-import imgOndulado2 from "../assets/imgs/cabelosOndulados/cabelo_liso_ondulado_75cm_castanho_natural.webp";
-import Ondulado3 from "../products/ondulado/Ondulado3";
-import imgOndulado3 from "../assets/imgs/cabelosOndulados/cabelo_liso_e_ondulado_65cm_castanho_natural.webp";
+// import Ondulado1 from "../products/ondulado/Ondulado1";
+// import imgOndulado1 from "../assets/imgs/cabelosOndulados/cabelo_liso_e_ondulado_55cm_castanho_natural.webp";
+// import Ondulado2 from "../products/ondulado/Ondulado2";
+// import imgOndulado2 from "../assets/imgs/cabelosOndulados/cabelo_liso_ondulado_75cm_castanho_natural.webp";
+// import Ondulado3 from "../products/ondulado/Ondulado3";
+// import imgOndulado3 from "../assets/imgs/cabelosOndulados/cabelo_liso_e_ondulado_65cm_castanho_natural.webp";
 
 export const categories = [
   {
@@ -251,12 +251,12 @@ export const categories = [
         img: imgCacheado2,
         component: <Cacheado2 />,
       },
-      {
-        id: 3,
-        name: "Cabelo cacheado castanho Caipira",
-        img: imgCacheado3,
-        component: <Cacheado3 />,
-      },
+      // {
+      //   id: 3,
+      //   name: "Cabelo cacheado castanho Caipira",
+      //   img: imgCacheado3,
+      //   component: <Cacheado3 />,
+      // },
       {
         id: 4,
         name: "Cabelo cacheado castanho Caipira",
@@ -265,29 +265,29 @@ export const categories = [
       },
     ],
   },
-  {
-    id: "ondulado",
-    idCategory: 6,
-    name: "Cabelo Ondulado",
-    pages: [
-      {
-        id: 1,
-        name: "Cabelo Castanho Indiano 55CM",
-        img: imgOndulado1,
-        component: <Ondulado1 />,
-      },
-      {
-        id: 2,
-        name: "Cabelo Castanho Indiano 75CM",
-        img: imgOndulado2,
-        component: <Ondulado2 />,
-      },
-      {
-        id: 3,
-        name: "Cabelo Castanho Indiano 65CM",
-        img: imgOndulado3,
-        component: <Ondulado3 />,
-      },
-    ],
-  },
+  // {
+  //   id: "ondulado",
+  //   idCategory: 6,
+  //   name: "Cabelo Ondulado",
+  //   pages: [
+  //     {
+  //       id: 1,
+  //       name: "Cabelo Castanho Indiano 55CM",
+  //       img: imgOndulado1,
+  //       component: <Ondulado1 />,
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Cabelo Castanho Indiano 75CM",
+  //       img: imgOndulado2,
+  //       component: <Ondulado2 />,
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Cabelo Castanho Indiano 65CM",
+  //       img: imgOndulado3,
+  //       component: <Ondulado3 />,
+  //     },
+  //   ],
+  // },
 ];

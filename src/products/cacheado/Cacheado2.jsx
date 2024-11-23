@@ -16,6 +16,7 @@ export default function Cacheado2() {
         <h2>CABELO CACHEADO PERMANENTE CAIPIRA 50 A 55 CM CASTANHO NATURAL</h2>
         <div className={styles.imgProduct}>
           <img
+            loading="lazy"
             src={cacheado2}
             alt="CABELO CACHEADO PERMANENTE CAIPIRA 50 A 55 CM CASTANHO NATURAL"
           />
@@ -41,7 +42,7 @@ export default function Cacheado2() {
           </p>
 
           {/* <div class="description-img">
-                <img src="../imgs/logos/tamanhso.webp" alt="">
+                <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="">
             </div> */}
 
           <BtnWhatsapp />
@@ -70,28 +71,22 @@ export default function Cacheado2() {
             horas do dia com água fria, seu cabelo agradece!
           </p>
           <h3>IMPORTANTE:</h3>
-          <p>
-            <ul>
-              <li>
-                <p>
-                  A TOP HAIR SSA, não se responsabiliza por serviços de
-                  terceiros realizados nos cabelos
-                </p>
-              </li>
-              <li>
-                <p>
-                  Os produtos devolvidos serão submetidos à analise por técnicos
-                  especializados.
-                </p>
-              </li>
-              <li>
-                <p>
-                  O produto adquirido será enviado a partir de fios de maior
-                  proximidade em cor e comprimento
-                </p>
-              </li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>
+              A TOP HAIR SSA, não se responsabiliza por serviços de terceiros
+              realizados nos cabelos
+            </li>
+            <li>
+              Os produtos devolvidos serão submetidos à analise por técnicos
+              especializados.
+            </li>
+            <li>
+              O produto adquirido será enviado a partir de fios de maior
+              proximidade em cor e comprimento
+            </li>
+          </ul>
+
           <BtnWhatsapp />
         </div>
       </div>

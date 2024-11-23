@@ -15,7 +15,7 @@ export default function MH4() {
       <div className={styles.descriptionProduct}>
         <h2>QUERATINA K EM FITA MARROM</h2>
         <div className={styles.imgProduct}>
-          <img src={queratinaMarrom} alt="Queratina" />
+          <img loading="lazy" src={queratinaMarrom} alt="Queratina" />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>

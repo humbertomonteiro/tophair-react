@@ -16,6 +16,7 @@ export default function Ondulado2() {
         <h2>CABELO LISO ONDULADO 75CM CASTANHO NATURAL</h2>
         <div className={styles.imgProduct}>
           <img
+            loading="lazy"
             src={ondulado2}
             alt="CABELO LISO ONDULADO 75CM CASTANHO NATURAL"
           />
@@ -36,7 +37,7 @@ export default function Ondulado2() {
           </p>
           {/* 
       <div class="description-img">
-        <img src="../imgs/logos/tamanhso.webp" alt="" />
+        <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="" />
       </div> */}
 
           <h3>PERGUNTAS FREQUENTES:</h3>

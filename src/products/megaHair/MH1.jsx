@@ -15,7 +15,7 @@ export default function MH1() {
       <div className={styles.descriptionProduct}>
         <h2>ESCOVA DESEMBARAÇANTE MEGA HAIR</h2>
         <div className={styles.imgProduct}>
-          <img src={escova} alt="escova desembaraçadora" />
+          <img loading="lazy" src={escova} alt="escova desembaraçadora" />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>

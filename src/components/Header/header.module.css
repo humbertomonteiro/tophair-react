@@ -43,9 +43,7 @@
 }
 
 .nav .active {
-  color: var(--color-1);
-  font-weight: bold;
-  background-color: var(--color-4);
+  background-color: var(--color-2);
 }
 
 .bars {

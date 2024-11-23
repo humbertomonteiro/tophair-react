@@ -15,7 +15,11 @@ export default function Liso8() {
       <div className={styles.descriptionProduct}>
         <h2>CABELO LISO VIETNÃ CASTANHO NATURAL 50CM</h2>
         <div className={styles.imgProduct}>
-          <img src={liso8} alt="CABELO LISO VIETNÃ CASTANHO NATURAL 50CM" />
+          <img
+            loading="lazy"
+            src={liso8}
+            alt="CABELO LISO VIETNÃ CASTANHO NATURAL 50CM"
+          />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>
@@ -65,7 +69,7 @@ export default function Liso8() {
           </p>
 
           {/* <div class="description-img">
-        <img src="../imgs/logos/tamanhso.webp" alt="" />
+        <img loading='lazy' src="../imgs/logos/tamanhso.webp" alt="" />
       </div> */}
 
           <h3>PERGUNTAS FREQUENTES:</h3>

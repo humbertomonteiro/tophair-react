@@ -16,7 +16,7 @@ export default function MH2() {
         <h2>REMOVEDOR FITA ADESIVA TOP HAIR 100ML</h2>
 
         <div className={styles.imgProduct}>
-          <img src={removedor} alt="escova desembaraçadora" />
+          <img loading="lazy" src={removedor} alt="escova desembaraçadora" />
         </div>
         <div className={styles.description}>
           <h3>TOP HAIR SSA</h3>

@@ -1,6 +1,7 @@
 import styles from "./header.module.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import { HiBars3BottomRight } from "react-icons/hi2";
 
@@ -32,30 +33,58 @@ export default function Header({ setLink }) {
   return (
     <header className={styles.header}>
       <Link className={styles.logo} to="/">
-        <img src={logo} alt="logo" />
+        <img loading="lazy" src={logo} alt="logo" />
       </Link>
       <nav className={stateNav ? styles.nav : styles.navMobile}>
-        <Link onClick={topPage} to="/products/megaHair">
+        <NavLink
+          onClick={topPage}
+          className={({ isActive }) => (isActive ? styles.active : "")}
+          to="/products/megaHair"
+        >
           Acessórios Mega Hair
-        </Link>
-        <Link onClick={topPage} to="/products/brasileiro">
+        </NavLink>
+        <NavLink
+          onClick={topPage}
+          className={({ isActive }) => (isActive ? styles.active : "")}
+          to="/products/brasileiro"
+        >
           Cabelo Brasileiro
-        </Link>
-        <Link onClick={topPage} to="/products/brasileiroRegi">
+        </NavLink>
+        <NavLink
+          onClick={topPage}
+          className={({ isActive }) => (isActive ? styles.active : "")}
+          to="/products/brasileiroRegi"
+        >
           Brasileiro Regional
-        </Link>
-        <Link onClick={topPage} to="/products/liso">
+        </NavLink>
+        <NavLink
+          onClick={topPage}
+          className={({ isActive }) => (isActive ? styles.active : "")}
+          to="/products/liso"
+        >
           Cabelo Liso
-        </Link>
-        <Link onClick={topPage} to="/products/cacheado">
+        </NavLink>
+        <NavLink
+          onClick={topPage}
+          className={({ isActive }) => (isActive ? styles.active : "")}
+          to="/products/cacheado"
+        >
           Cabelo Cacheado
-        </Link>
-        <Link onClick={topPage} to="/products/ondulado">
+        </NavLink>
+        {/* <NavLink
+          onClick={topPage}
+          className={({ isActive }) => (isActive ? styles.active : "")}
+          to="/products/ondulado"
+        >
           Cabelo Ondulado
-        </Link>
-        <Link onClick={topPage} to="/products/atacado">
+        </NavLink> */}
+        <NavLink
+          onClick={topPage}
+          className={({ isActive }) => (isActive ? styles.active : "")}
+          to="/wholesale"
+        >
           Cabelo em Atacado
-        </Link>
+        </NavLink>
       </nav>
       <button
         onClick={navBar}
